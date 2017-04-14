@@ -1,0 +1,105 @@
+body {
+    background: #FFF;
+    font-family: Georgia, Times New Roman, Times, serif;
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+  display: block;
+}
+
+
+h1 {
+    font-size: 80px;
+    font-weight: normal;
+    margin: 50px 0 0 0;
+    font-family: 'Chelsea Market', Georgia, serif;
+    color: #000;
+    line-height: 2;
+}
+h2 {
+    font-size: 50px;
+    font-weight: normal;
+    margin: 0 0 40px 0;
+    color: DarkSlateBlue;
+    font-family: 'Chelsea Market', Georgia, serif;
+    text-transform: lowercase;
+}
+h3 {
+	font-size: 50px;
+	font-weight: normal;
+	margin: 0;
+  margin-top: 40px;
+  font-family: 'Chelsea Market', Georgia, serif;
+	text-transform: lowercase;
+}
+p {
+	width: 90%;
+  max-width: 960px;
+	margin: 24px auto;
+	color: #000;
+  line-height: 200%;
+}
+
+a, a:visited {
+	color: DarkBlue;
+  text-decoration: none;
+}
+a:hover {
+  background-color: MediumSeaGreen;
+  border-radius: 5px;
+  padding: 5px;
+}
+li {
+  display: inline-block;
+  background-color: Gainsboro;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+
+.block {
+  position: relative;
+  margin: 0;
+  width: 100%;
+  color: black;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.pre-list {
+  margin-bottom: 10px;
+}
+img.profile-pic {
+  border-radius: 50%;
+  width: 30%;
+  max-width: 300px;
+  min-width: 150px;
+}
+
+
+.header {
+  background-color: LightYellow;
+}
+
+.tagline {
+  background-color: MidnightBlue;
+  color: white;
+}
+.tagline p {
+  color: White;
+}
+
+.skills {
+  background-color: LightCyan;
+}
+.skills h3 {
+  color: Teal;
+}
+
+.contact {
+  background-color: LightGreen;
+  color: SeaGreen;
+}
